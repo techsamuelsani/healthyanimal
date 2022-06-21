@@ -1,0 +1,147 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": true,
+      "showLogo": true
+    },
+
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "autoPlay": false,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 2.0,
+      "items": [
+        {
+          "category": 94,
+          "image": "https://thepetstore.pk/wp-content/uploads/2022/05/app-banner-5.png",
+          "padding": 15.0
+        },
+        {
+          "category": 94,
+          "image": "hhttps://thepetstore.pk/wp-content/uploads/2022/05/app-banner-4.png",
+          "padding": 15.0
+        },
+        {
+          "category": 94,
+          "image": "https://thepetstore.pk/wp-content/uploads/2022/05/app-banner-6.png",
+          "padding": 15.0
+        }
+
+      ]
+    },
+
+    {
+      "layout": "brand",
+      "name": "Top Brand Choices",
+      "isBrandNameShown": true ,
+      "isLogoCornerRounded":  false},
+    {
+      "name": "Pet Food",
+      "image": "",
+      "layout": "twoColumn",
+      "isSnapping": true,
+      "category": 88
+    },
+    {
+      "name": "Collar & Harness",
+      "image": "",
+      "layout": "twoColumn",
+      "isSnapping": true,
+      "category": 87
+    },
+    {
+      "name": "Accessories",
+      "image": "",
+      "layout": "twoColumn",
+      "isSnapping": true,
+      "category": 20
+    },
+
+    {
+      "name": "Recent Products",
+      "layout": "staggered",
+      "limit": 20
+    },
+
+    {
+      "name": "Recent View",
+      "layout": "recentView"
+    }
+
+  ],
+  "Setting": {
+    "MainColor": "#569f92",
+    "ProductDetail": "simpleType",
+    "ProductListLayout": "twoColumn",
+    "StickyHeader": true
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "home",
+      "pos": 100,
+      "fontFamily": "CupertinoIcons",
+      "key": "p1q235ba14"
+    },
+    {
+      "pos": 200,
+      "layout": "category",
+      "icon": "rectangle_grid_1x2",
+      "fontFamily": "CupertinoIcons",
+      "categoryLayout": "sideMenu",
+      "key": "hwu0rkrizt"
+    },
+    {
+      "key": "2reihs4qzc",
+      "icon": "search",
+      "layout": "search",
+      "fontFamily": "CupertinoIcons",
+      "pos": 300,
+      "size": 24
+    },
+    {
+      "pos": 400,
+      "icon": "bag",
+      "layout": "cart",
+      "categoryLayout": "cart",
+      "key": "a2xts0oou6",
+      "fontFamily": "CupertinoIcons"
+    },
+    {
+      "layout": "profile",
+      "fontFamily": "CupertinoIcons",
+      "pos": 500,
+      "key": "69jw5yx12d",
+      "icon": "person"
+    }
+  ],
+  "Drawer": {
+    "logo": "assets/images/logo.png",
+    "items": [
+      {
+        "type": "home",
+        "show": true
+      },
+      {
+        "type": "blog",
+        "show": false
+      },
+      {
+        "type": "login",
+        "show": true
+      },
+      {
+        "type": "category",
+        "show": true
+      }
+    ]
+  },
+  "VerticalLayout": {
+    "layout": "menu"
+  }
+}
